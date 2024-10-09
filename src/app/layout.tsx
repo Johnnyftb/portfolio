@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${quicksand.variable} ${poppins.variable}`}>
+      <body className={`${quicksand.variable} ${poppins.variable} overflow-y-scroll bg-dark`}>
         {children}
       </body>
     </html>
