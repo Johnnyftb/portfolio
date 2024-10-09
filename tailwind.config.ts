@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        display: ['var(--font-quicksand)'],
+        body: ['var(--font-poppins)']
       },
+      colors: {
+        primary: '#7b03b8',
+        dark: '#111111'
+      }
     },
   },
   plugins: [],
